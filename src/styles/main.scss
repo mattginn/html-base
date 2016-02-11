@@ -1,8 +1,9 @@
 // Import Project Files
 
+@import './project/fonts';
 @import './project/variables';
-@import './project/mixins';
-@import './project/globals';
+@import './base/mixins';
+@import './base/globals';
 
 // Import basscss modules that we want
 
@@ -12,7 +13,7 @@
 // Base
 
 @import './base/reset';
-@import './base';
+@import './base/base';
 
 // Components
 
